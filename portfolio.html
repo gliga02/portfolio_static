@@ -1,0 +1,550 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Gligorijević</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Djordje Gligorijevic"/>
+    <meta name="keywords" content="veb dizajn, veb programiranje, responzivni veb sajt, web site development, frilenser Jagodina"/>
+    <meta name="description" content="Ja sam iskusan veb dizajner i programer iz Jagodine koji pomaze malim biznisima da zablistaju na internetu..."/>
+    <meta name="og:title" content="Gligorijević Veb dizajner i Programer Jagodina Srbija">
+    <meta name="robots" content="Veb dizajner i Programer Jagodina Srbija">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="icon.png" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Preloader -->
+   <!--  <div id="preloader">
+        <img src="logo.png" alt="logo_preloader">
+      </div> -->
+      <!-- Preloader -->
+    <div id="nav-container" class="fluid-container">
+      <header id="header">
+        <div class="container">
+          <div id="logo">
+            <a href="index.html">G</a>
+          </div>
+          <nav id="nav">
+            <ul>
+              <li><a href="http://gligorijevicdj.com/index.php">Početna</a></li>
+              <li><a href="about.html" >O meni</a></li>
+              <li><a href="#" class="active">Portfolio</a></li>
+              <li><a href="http://gligorijevicdj.com/contact.php">Kontakt</a></li>
+              <li class="menu-icon"><a href="javascript:void(0)"><i class="fa fa-bars"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <div class="container">
+      <section id="main-section-about">
+        <h1><span>Gligorijević</span> - Portfolio</h1>
+        <hr />
+      </section>
+
+      <section id="portfolio-section">
+          <!-- <div class="box">
+                <h3><div></div>Web design</h3>
+                <img src="img/masaze.JPG" alt="branding">
+                <p>Masaže Gligorijević</p>
+          </div>
+
+          <div class="box">
+                <h3><div></div>Web design</h3>
+                <img src="img/extradent.JPG" alt="branding">
+                <p>Extra Dent</p>
+          </div>
+
+          <div class="box">
+                <h3><div></div>Web design</h3>
+                <img src="img/apartmani.JPG" alt="branding">
+                <p>Apartmani Živković</p>
+          </div> -->
+          <div class="box">
+          <h3><div></div>Slajder</h3>
+          <code>var br = 1;
+
+function slider() {
+    document.getElementById("1").style.backgroundColor = "black";
+    document.getElementById("2").style.backgroundColor = "black";
+    document.getElementById("3").style.backgroundColor = "black";
+    document.getElementById("4").style.backgroundColor = "black";
+    document.getElementById("5").style.backgroundColor = "black";
+    if (br == 6)
+        br = 1;
+    switch (br) {
+        case 1:
+            fadeIn(document.getElementById("f-img"));
+            document.getElementById("f-img").src = "images/img1.jpg";
+            document.getElementById("1").style.backgroundColor = "gray";
+            break;
+        case 2:
+        fadeIn(document.getElementById("f-img"));
+            document.getElementById("f-img").src = "images/img2.jpg";
+            document.getElementById("2").style.backgroundColor = "gray";
+            break;
+        case 3:
+        fadeIn(document.getElementById("f-img"));
+            document.getElementById("f-img").src = "images/img3.jpg";
+            document.getElementById("3").style.backgroundColor = "gray";
+            break;
+        case 4:
+        fadeIn(document.getElementById("f-img"));
+            document.getElementById("f-img").src = "images/img4.jpg";
+            document.getElementById("4").style.backgroundColor = "gray";
+            break;
+        case 5:
+        fadeIn(document.getElementById("f-img"));
+            document.getElementById("f-img").src = "images/img5.jpg";
+            document.getElementById("5").style.backgroundColor = "gray";
+            break;
+    }
+    br++;
+    setTimeout("slider()", 3000);
+
+    function fadeIn(img) {
+        img.classList.add("fadeout");
+        setInterval(function() {
+            img.classList.remove("fadeout");
+            img.classList.add("fadein");
+        }, 1000);
+    }
+}</code>
+        </div>
+
+        <div class="box">
+          <h3><div></div>Zvuk</h3>
+          <code>
+            function Zvuk9(){
+    x9.play();
+}
+function Stop9(){
+    x9.pause();
+    x9.currentTime = 0;
+}
+          </code>
+        </div>
+
+        <div class="box">
+          <h3><div></div>Tv Program</h3>
+          <code>
+             protected void Button1_Click(object sender, EventArgs e)
+        {
+            Table1.Visible = true;
+            Table1.Rows.Clear();
+            TableRow tr = new TableRow();
+            TableCell Vreme = new TableCell();
+            Vreme.Text = "Vreme";
+            TableCell Emisija = new TableCell();
+            Emisija.Text = "Emisija";
+            TableCell Slika = new TableCell();
+            Slika.Text = "Slika";
+            tr.Cells.Add(Vreme);
+            tr.Cells.Add(Emisija);
+            tr.Cells.Add(Slika);
+            string line;
+            System.IO.StreamReader file = new System.IO.StreamReader(Server.MapPath(@"~\TXT\" + DropDownList1.SelectedItem.Text + ".txt "));
+            while ((line = file.ReadLine()) != null)
+            {
+                string emisija = DropDownList2.SelectedItem.Text;
+                string[] linija = line.Split('|');
+                string slika;
+                slika = linija[3];
+                Table1.Rows.Add(tr);
+                if (linija[2].Contains(DropDownList2.SelectedItem.Text))
+                {
+                    tr = new TableRow();
+                    Vreme = new TableCell();
+                    Vreme.Text = linija[0];
+                    Emisija = new TableCell();
+                    Emisija.Text = linija[1];
+                    Slika = new TableCell();
+                    Slika.Text = @"Slika";
+                    tr.Cells.Add(Vreme);
+                    tr.Cells.Add(Emisija);
+                    tr.Cells.Add(Slika);
+                    Table1.Rows.Add(tr);
+                }
+            }
+            file.Close();
+        }
+    }
+          </code>
+        </div>
+
+        <div class="box">
+          <h3><div></div>Numerolosko slaganje</h3>
+          <code>
+              function Funkcija(){
+    var datum1 = document.getElementById("datum1");
+    var datum2 = document.getElementById("datum2");
+
+    var datum3 = datum1.value.split('-');
+    console.log(datum3);
+    var h1godina = parseInt(datum3[0] / 1000);
+    var s1godina = parseInt((datum3[0] / 100) % 10);
+    var m1godina = parseInt((datum3[0] / 10) % 10);
+    var j1godina = parseInt(datum3[0] % 10);
+
+    var d1mesec = parseInt(datum3[1] / 10);
+    var j1mesec = parseInt(datum3[1] % 10);
+
+    var d1dan = parseInt(datum3[2] / 10);
+    var j1dan = parseInt(datum3[2] % 10);
+
+    var zbir1 = h1godina + s1godina + m1godina + j1godina + d1mesec + j1mesec + d1dan + j1dan;
+    var zbir1pom;
+    if(zbir1 >= 10){
+        var d1pom = Math.floor(zbir1 / 10);
+        var j1pom = zbir1 % 10;
+        zbir1pom = d1pom + j1pom;
+    }
+    else{
+        zbir1pom = zbir1;
+    }
+
+
+    var datum4 = datum2.value.split('-');
+    console.log(datum4);
+    var h2godina = parseInt(datum4[0] / 1000);
+    var s2godina = parseInt((datum4[0] / 100) % 10);
+    var d2godina = parseInt((datum4[0] / 10) % 10);
+    var j2godina = parseInt(datum4[0] % 10);
+
+    var d2mesec = parseInt(datum4[1] / 10);
+    var j2mesec = parseInt(datum4[1] % 10);
+
+    var d2dan = parseInt(datum4[2] / 10);
+    var j2dan = parseInt(datum4[2] % 10);
+
+    var zbir2 = h2godina + s2godina + d2godina + j2godina + d2mesec + j2mesec + d2dan + j2dan;
+
+    var zbir2pom;
+    if(zbir2 >= 10){
+        var d2pom = Math.floor(zbir2 / 10);
+        var j2pom = zbir2 % 10;
+        zbir2pom = d2pom + j2pom;
+    }
+    else{
+        zbir2pom = zbir2;
+    }
+
+
+
+    var rez;
+    if(zbir1pom > zbir2pom){
+        rez = parseInt((zbir2pom / zbir1pom) * 100);
+    }
+    else if(zbir2pom > zbir1pom){
+        rez = parseInt((zbir1pom / zbir2pom) * 100);
+    }
+    else if(zbir1pom == zbir2pom){
+        rez= 100;
+    }
+    
+    if (rez != undefined) {
+        alert(rez + "%");
+    } else {
+        alert("Niste uneli sve podatke");
+    }
+}
+          </code>
+      </div>
+
+        <div class="box">
+          <h3><div></div>DataSet sa bazom</h3>
+          <code>
+            SqlConnection conn = new SqlConnection();
+            conn.ConnectionString = "Data Source=10.81.73.2,49166; Initial Catalog=dj_gligorijevicE34; User ID=dj_gligorijevicE34; Password=dj_gligorijevicE34";
+            SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM Igrac", conn);
+            SqlCommandBuilder cb = new SqlCommandBuilder(da);
+            DataSet ds = new DataSet();
+            da.Fill(ds, "Igrac");
+            ds.Tables["Igrac"].Constraints.Add("IgracPK", ds.Tables["Igrac"].Columns["IgracID"], true);
+            DataRow row = ds.Tables["Igrac"].NewRow();
+            row[0] = Convert.ToInt32(TextBox1.Text);
+            row[1] = TextBox2.Text;
+            row[2] = Convert.ToInt32(TextBox3.Text);
+            row[3] = Convert.ToInt32(TextBox4.Text);
+            ds.Tables["Igrac"].Rows.Add(row);
+            da.Update(ds.Tables["Igrac"]);
+          </code>
+        </div>
+
+        <div class="box">
+          <h3><div></div>XML</h3>
+          <code>
+            XmlTextReader xmlreader = new XmlTextReader(Server.MapPath("biblioteka.xml"));
+            DataSet ds = new DataSet();
+            ds.ReadXml(xmlreader);
+
+            DataView dv = new DataView(ds.Tables[0]);
+            DataTable dt = dv.Table;
+
+            dt.Columns[0].ColumnName = "ISBN";
+            dt.Columns[1].ColumnName = "naslov";
+            dt.Columns[2].ColumnName = "stanje";
+            dt.Columns[3].ColumnName = "citano";
+
+            dt.DefaultView.Sort = "citano DESC";
+            dt = dt.DefaultView.ToTable(true);
+
+            xmlreader.Close();
+            GridView1.DataSource = dt;
+            GridView1.DataBind();
+          </code>
+        </div>
+
+        <div class="box">
+          <h3><div></div>Pretraga sa fajlom</h3>
+          <code>protected void Button1_Click(object sender, EventArgs e)
+        {
+            string pretraga = TextBox1.Text;
+            DataTable table = new DataTable();
+            table.Columns.Add("naziv");
+            table.Columns.Add("cena");
+            table.Columns.Add("kolicina");
+
+
+            string putanja = Server.MapPath("proizvodi.txt");
+            string[] redovi = File.ReadAllLines(putanja);
+            string[] kolone;
+            DataRow red;
+
+            for (int i = 0; i < redovi.Length; i++)
+            {
+                kolone = redovi[i].Split(';');
+                if (pretraga == kolone[0])
+                {
+                    red = table.NewRow();
+                    red[0] = kolone[0];
+                    red[1] = kolone[1];
+                    red[2] = kolone[2];
+                    table.Rows.Add(red);
+                }
+            }
+
+            GridView1.DataSource = table;
+            GridView1.DataBind();
+        }</code>
+        </div>
+
+        <div class="box">
+          <h3><div></div>Chart sa fajlom</h3>
+          <code>
+            protected void Chart1_Customize(object sender, EventArgs e)
+        {
+            DataTable table = new DataTable();
+            table.Columns.Add("naziv");
+            table.Columns.Add("kolicina");
+
+
+            string putanja = Server.MapPath("proizvodi.txt");
+            string[] redovi = File.ReadAllLines(putanja);
+            string[] kolone;
+            DataRow red;
+
+            for (int i = 0; i < redovi.Length; i++)
+            {
+                kolone = redovi[i].Split(';');
+                red = table.NewRow();
+                red[0] = kolone[0];
+                red[1] = kolone[1];
+                table.Rows.Add(red);
+            }
+
+            Chart1.Series.Add("naziv");
+            Chart1.Series.Add("kolicina");
+
+            Chart1.DataSource = table;
+            Chart1.DataBind();
+        }
+          </code>
+        </div>
+          <div class="box">
+          <h3><div></div>Sortiranje tabele</h3>
+          <code>
+            function sortTable(n) {
+            var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+            table = document.getElementById("MojaTabela");
+            switching = true;
+            dir = "asc";
+            while (switching) {
+                switching = false;
+                rows = table.getElementsByTagName("TR");
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("TD")[n];
+                    y = rows[i + 1].getElementsByTagName("TD")[n];
+                    if (dir == "asc") {
+                        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    } else if (dir == "desc") {
+                        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    switchcount++;
+                } else {
+                    if (switchcount == 0 && dir == "asc") {
+                        dir = "desc";
+                        switching = true;
+                    }
+                }
+            }
+        }
+          </code>
+          </div>
+
+          <div class="box">
+          <h3><div></div>Druga tabela</h3>
+          <code>
+            function sortTable() {
+    var table, rows, switching, i, x, y, shouldSwitch;
+    table = document.getElementById("Tabela");
+    switching = true;
+    while (switching) {
+        switching = false;
+        rows = table.getElementsByTagName("TR");
+        for (i = 1; i < (rows.length - 1); i++) {
+            shouldSwitch = false;
+            x = rows[i].getElementsByTagName("TD")[4];
+            y = rows[i + 1].getElementsByTagName("TD")[4];
+            if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                shouldSwitch = true;
+                break;
+            }
+        }
+        if (shouldSwitch) {
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+        }
+    }
+}
+
+function color() {
+    var table, rows, switching = true,
+        i, x, y, shouldSwitch;
+    table = document.getElementById("Tabela");
+    rows = table.getElementsByTagName("TR");
+    for (i = 1; i < (rows.length); i++) {
+        if (i % 2 != 0)
+            rows[i].style.backgroundColor = "gray";
+    }
+}
+
+function prosli() {
+    var table, rows, switching = true,
+        i, x, y, shouldSwitch;
+    table = document.getElementById("Tabela");
+    rows = table.getElementsByTagName("TR");
+    for (i = 1; i < (rows.length); i++) {
+        x = rows[i].getElementsByTagName("TD")[4].innerHTML - 0;
+        if (x > 50)
+            rows[i].style.color = "green";
+    }
+}
+
+function pali() {
+    var table, rows, switching = true,
+        i, x, y, shouldSwitch;
+    table = document.getElementById("Tabela");
+    rows = table.getElementsByTagName("TR");
+    for (i = 1; i < (rows.length); i++) {
+        x = rows[i].getElementsByTagName("TD")[4].innerHTML - 0;
+        if (x < 50)
+            rows[i].style.color = "red";
+    }
+}
+
+function izdvoji() {
+    var table, rows, switching = true,
+        i, x, y, shouldSwitch;
+    table = document.getElementById("Tabela");
+    while (switching) {
+        switching = false;
+        rows = table.getElementsByTagName("TR");
+        for (i = 1; i < (rows.length - 1); i++) {
+            shouldSwitch = false;
+            x = rows[i].getElementsByTagName("TD")[4];
+            y = rows[i + 1].getElementsByTagName("TD")[4];
+            if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                shouldSwitch = true;
+                break;
+            }
+        }
+        if (shouldSwitch) {
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+        }
+    }
+    rows = table.getElementsByTagName("TR");
+    var p = rows.length;
+    for (i = 1; i < p;) {
+        x = rows[i].getElementsByTagName("TD")[4].innerHTML - 0;
+        if (x < 50) {
+            table.deleteRow(i);
+            continue;
+        }
+        i++;
+    }
+          </code>
+          </div>
+      </section>
+
+      <section id="contact">
+            <h3 data-aos="fade-right" data-aos-duration="2000">
+              <div></div>
+              Kontakt
+            </h3>
+            <p class="p">
+              Ugovorite saradnju već danas!
+              <br />
+              Pišite mi na
+              <a class="writeme" href="mailto:itdjordjegligorijevic@gmail.com"
+                >itdjordjegligorijevic@gmail.com</a
+              >
+            </p>
+          </section>
+
+      <footer id="footer">
+        <p>Copyright &copy; <span class="year"></span> <span class="footer-bg">Gligorijević</span>. Sva prava zadržana.</p>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
